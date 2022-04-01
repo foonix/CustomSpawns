@@ -1,14 +1,16 @@
-﻿using System;
-using System.Reflection;
-using System.Collections.Generic;
-using System.Linq;
-using CustomSpawns;
+﻿using CustomSpawns;
 using CustomSpawns.Dialogues;
-using TaleWorlds.CampaignSystem;
-
 using CustomSpawns.Dialogues.DialogueAlgebra;
 using Diplomacy;
-using TaleWorlds.CampaignSystem.Barterables;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.BarterSystem;
+using TaleWorlds.CampaignSystem.BarterSystem.Barterables;
+using TaleWorlds.CampaignSystem.Encounters;
+using TaleWorlds.CampaignSystem.Party;
 
 namespace Dialogues
 {

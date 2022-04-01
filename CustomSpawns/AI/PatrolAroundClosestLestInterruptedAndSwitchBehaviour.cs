@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.Core;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Settlements;
 
 namespace CustomSpawns.AI
 {

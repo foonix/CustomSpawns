@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.LogEntries;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.ObjectSystem;
 
 namespace CustomSpawns.UtilityBehaviours
@@ -42,9 +44,8 @@ namespace CustomSpawns.UtilityBehaviours
         {
             CampaignEvents.HourlyTickPartyEvent.AddNonSerializedListener(this, OnMobilePartyHourlyTick);
             CampaignEvents.MobilePartyDestroyed.AddNonSerializedListener(this, OnMobilePartyDestroyed);
-            CampaignEvents.AfterDailyTickEvent.AddNonSerializedListener(this, LateDailyTick);
-
-            
+            //CampaignEvents.AfterDailyTickEvent.AddNonSerializedListener(this, LateDailyTick);
+            CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, LateDailyTick);
         }
 
         public override void SyncData(IDataStore dataStore) //maybe make this work between loads too? it is just a daily event tho.

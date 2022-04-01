@@ -3,6 +3,8 @@ using System;
 using System.IO;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Library;
 
 namespace CustomSpawns.CampaignData { 
@@ -30,7 +32,8 @@ namespace CustomSpawns.CampaignData {
 
         protected override void OnRegisterEvents()
         {
-            CampaignEvents.AfterDailyTickEvent.AddNonSerializedListener(this, OnAfterDailyTick);
+            // CampaignEvents.AfterDailyTickEvent was removed
+            CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, OnAfterDailyTick);
             CampaignEvents.WarDeclared.AddNonSerializedListener(this, OnWarDeclared);
             CampaignEvents.MakePeace.AddNonSerializedListener(this, OnPeaceMade);
             CampaignEvents.ClanChangedKingdom.AddNonSerializedListener(this, ClanChangedKingdom);

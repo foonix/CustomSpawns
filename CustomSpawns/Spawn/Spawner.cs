@@ -5,7 +5,12 @@ using System.Linq;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Settlements;
 using Helpers;
+using TaleWorlds.CampaignSystem.Roster;
+using TaleWorlds.CampaignSystem.Party.PartyComponents;
+using TaleWorlds.CampaignSystem.Extensions;
 
 namespace CustomSpawns.Spawn
 {

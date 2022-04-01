@@ -7,7 +7,8 @@ namespace Diplomacy
         public void DeclareWar(IFaction attacker, IFaction warTarget)
         {
             FactionManager.DeclareWar(attacker, warTarget, true);
-            FactionManager.SetStanceTwoSided(attacker, warTarget, -70);
+            // seems this was removed
+            //FactionManager.SetStanceTwoSided(attacker, warTarget, -70);
         }
 
         public void MakePeace(IFaction attacker, IFaction warTarget)

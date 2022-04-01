@@ -2,13 +2,12 @@
 using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-using TaleWorlds;
 using TaleWorlds.CampaignSystem;
 
 using CustomSpawns.Dialogues.DialogueAlgebra;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Encounters;
 
 namespace CustomSpawns.Dialogues
 {

@@ -5,6 +5,7 @@ using CustomSpawns.HarmonyPatches;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Library;
 using CustomSpawns.PartySpeed;
 using CustomSpawns.RewardSystem;

@@ -5,7 +5,9 @@ using System.Reflection.Emit;
 using HarmonyLib;
 using Helpers;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors.AiBehaviors;
+using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Party.PartyComponents;
+using TaleWorlds.CampaignSystem.Settlements;
 
 /* Patch might be useful as the bug might not be resolved. Disabled for now */
 namespace CustomSpawns.HarmonyPatches

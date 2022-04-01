@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CustomSpawns.RewardSystem.Models;
+using System;
 using System.Linq;
-using CustomSpawns.RewardSystem.Models;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Extensions;
+using TaleWorlds.CampaignSystem.MapEvents;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
