@@ -9,7 +9,7 @@ using TaleWorlds.MountAndBlade;
 namespace CustomSpawns.HarmonyPatches
 {
     //The tick seems to get called whenever on the campaign map view, which makes sense. we can have some hotkeys here!
-    [HarmonyPatch(typeof(MapScreen), "TaleWorlds.CampaignSystem.IMapStateHandler.Tick")]
+    [HarmonyPatch(typeof(MapScreen), "TaleWorlds.CampaignSystem.GameState.IMapStateHandler.Tick")]
     public class MapScrenPatch
     {
 
